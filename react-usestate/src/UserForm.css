@@ -1,0 +1,107 @@
+body, html {
+  height: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at 30% 30%, #401b43 20%, transparent 40%),
+              radial-gradient(circle at 70% 70%, #0c3838 20%, transparent 40%),
+              radial-gradient(circle at 20% 50%, hsl(208, 56%, 23%) 25%, transparent 70%),
+              radial-gradient(circle at 50% 70%, hsl(205, 67%, 16%) 25%, transparent 80%),
+              linear-gradient(135deg, #467f6e, #4d8261);
+  background-size: cover;
+}
+.user-form-container {
+    max-width: 500px;
+    max-height: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px ;
+    box-shadow: 0 0 30px rgb(15, 44, 71);
+    background-color: #f9f9f950;
+    font-family: Arial, sans-serif;
+    font-weight:bolder;
+    font-style: italic;
+    }
+
+    .user-form-container h2 {
+      text-align: center;
+      font-weight:bolder;
+      font-style: italic;
+      color: #ffffff;
+      }
+
+      .user-form-container h3 {
+        text-align: center;
+        font-weight:bolder;
+        font-style: italic;
+        color: #ffffff;
+        
+        }
+  
+  .user-form {
+    display: flex;
+    flex-direction: column;
+    font-weight:bolder;
+    font-style: italic;
+
+  }
+  
+  .user-form label {
+    margin-bottom: 1px;
+    font-weight:bolder;
+    font-style: italic;
+    width: 95%;
+    color: #ffffff;
+  }
+  
+  .user-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 2px solid #10444d;
+    border-radius: 20px;
+  }
+  
+  .user-data {
+    list-style: none;
+    padding: 0;
+
+  }
+  
+  .user-data li {
+    background: #ffffff5f;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    color: #ffffff;
+  }
+
+  .clear-button {
+    background-color: #10444d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-weight:bolder;
+  }
+  
+  .clear-button:hover {
+    background-color: #380b18;
+  }
+  .invalid {
+    border-color: rgb(255, 255, 255);
+  }
+  
+  .error {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight:bolder;
+
+  }
+  
+  
