@@ -1,6 +1,6 @@
 body, html {
-  height: 100%;
-  overflow: hidden;
+  max-height: 100%;
+  overflow-x: hidden;
   justify-content: center;
   align-items: center;
   background: radial-gradient(circle at 30% 30%, #401b43 20%, transparent 40%),
